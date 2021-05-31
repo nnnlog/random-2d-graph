@@ -1,14 +1,14 @@
 {
   "name": "random-2d-graph",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate random 2D graph using divide conquer.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "nlog",
+  "license": "MIT",
   "dependencies": {
     "nodeplotlib": "^0.7.3"
   }
