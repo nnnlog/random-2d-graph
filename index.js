@@ -22,7 +22,7 @@ const gen = (l, r, minY, maxY) => {
 	}
 	let m = (l + r) >> 1;
 	arr[m] = (minY + maxY) >> 1;
-	let mid = arr[m] + mt_rand(-maxY, maxY);
+	let mid = arr[m] + mt_rand(-minY, minY);
 	if (maxY - mid > mid - minY) minY = mid;
 	else maxY = mid;
 	let sum = gen(l, m - 1, minY, maxY) + gen(m + 1, r, minY, maxY);

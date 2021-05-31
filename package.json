@@ -1,6 +1,6 @@
 {
   "name": "random-2d-graph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate random 2D graph using divide conquer.",
   "main": "index.js",
   "scripts": {
